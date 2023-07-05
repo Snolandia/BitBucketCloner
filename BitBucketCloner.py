@@ -1,6 +1,6 @@
-import requests
+import requests # git install requests
 import os
-from git import Repo
+from git import Repo # git install gitpython
 from requests.auth import HTTPBasicAuth
 
 ############################################################
