@@ -12,9 +12,9 @@ from requests.auth import HTTPBasicAuth
 # Then set the following three variables appropriately, with the new consumer created being the key and secret
 ############################################################
 
-key = "key"
-secret = "secret"
-repoFileLocation = "folder location"
+key = "Key"
+secret = "Secret"
+repoFileLocation = "Folder Location"  #REMEMBER - use of "\" requires an escape character. Use \ as the escape character. Example: "C:\\Users\\AccountName\\Repos"
 
 keySecret = HTTPBasicAuth(key,secret)
 data = { 'grant_type': 'client_credentials'}
